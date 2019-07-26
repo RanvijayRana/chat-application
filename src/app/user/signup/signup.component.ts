@@ -15,7 +15,7 @@ export class SignupComponent implements OnInit {
   public mobile: any;
   public email: any;
   public password: any;
-  public apiKey: any;
+  public apiKey: any = "ZjJjZWJiYWZiOTE2OTk2M2YwOGQzYzc0ZTYxY2I2NTAwMzNjMDcwMmYyZjIyZTc5ZmUxMWJjZmE1ZmEwMjgwZjM0NzA2YjBlOWVjN2E2MzA4NmNkY2VkZDdlZjc4NzgxOTdhYzdlNjUxMTkzMDUzMjkzNDAxYjRkYjk0ODI3MmVlMg==";
 
   constructor(  
     public appService: AppService,
